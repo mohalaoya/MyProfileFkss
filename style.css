@@ -1,0 +1,67 @@
+body{color: rgb(28, 28, 28);
+	font-family: 'Roboto', sans-serif;}
+
+h1, h2 , h3,{font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{color: rgb(8, 0, 255);
+	font-weight: 600;
+	letter-spacing: 8px;
+	font-size: 55px;
+}
+
+h2{color: rgb(8, 0, 255);
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+p{color: rgb(28, 28, 28);
+}
+
+ul{color: rgb(28, 28, 28);
+}
+
+a {text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: rgb(0, 119, 255);
+	font-size: 20px;
+}
+
+a:hover {color: rgb(8, 0, 255);
+}
+
+div{background: white; margin: 15px;}
+
+
+.container{
+	width: 700px; margin: 40px auto;}
+
+.img-circle{border-radius: 50%;}
+
+@media (max-width: 760px){
+.container{width: 500px;}}
+
+@media (max-width: 600px){
+.container{width: 400px;}}
+
+.card-white{background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px; padding: 40px;
+	border-radius: 6px; text-align: center;}
+
+.list-inline{list-style: none; padding-left: 0px;}
+
+.list-inline li{display: inline; padding: 10px;}
+
+.list-inline i:hover{font-size: 50px; color: black;}
+
+.btn-blue{background-color: rgb(8, 0, 255);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;}
+
+.btn-blue:hover{background-color: rgb(153, 153, 153);
+	color: black;}
+
+#introduction p{margin-bottom: 40px;}
